@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* body{
+    margin: 0px;
+    padding: 0px;
+    background: white;
+}
+.container-div{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    width: 80%;
+    margin: 10%;
+    padding: 8px;
+    background-color: white;
+} */
+
+/* Bootstap  */
+
+.logo{
+    /* background: url("https://www.fissionlabs.com/wp-content/themes/fissionlabs_v1/assets/images/Logo.png"); */
+    width: 218px;
+    height: 45px;
+    background-size: cover;
+    
+    /* position: absolute; */
+    /* top: 10px; */
+}
+/* .right-content{ */
+    /* padding-left: 542px;    */
+    
+/* } */
+
+.hover:hover{
+    background-color: #f1592a;
+    border-radius: 5px;
+}
+
+.text-div{
+    width: 100%;
+    flex: 100%;
+}
+
+.carousel-height{
+    height: 91vh;
+    overflow: hidden;
+}
+
+
+
+.carousel-img{
+    object-fit: cover;
+    height: 100vh;
+
+}
+
+.background-clr{
+    background-color: #ecf7fd;
+}
+
+.custom-container{
+    max-width: 980px !important;
+    padding-top: 70px;
+}
+
+.second-para-heading {
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #7669dc;
+    word-spacing: 18px;
+    text-align: justify;
+}
+
+.second-para-body{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: Poppins;
+    font-stretch: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    color: #494949;
+}
+
+.custom-class{
+    font-family: Poppins;
+    color: #000;
+    position: absolute;
+    bottom: 280px !important;
+    text-align: left !important;
+}
+.home-title {
+    color: #f1592a;
+    font-size: 34px;
+    line-height: 44px;
+    font-family: Poppins ;
+    word-spacing: 0px; 
+    font-weight: bold;
+    margin: 0;
+}
+.home-title-text{
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Poppins;
+    color: #494949;
+    margin-top: 12px;
+    text-align: justify !important;
+}
+.talk-btn{
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 13px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    color: #fff;
+    background-color: #7165c7;
+    box-shadow: 0px 10px 30px rgb(128 0 128 / 14%);
+    border: none;
+}
+
+.custom-class-1{
+    font-family: Poppins;
+    position: absolute;
+    bottom: 450px !important;
+    text-align: left !important;
+
+}
+
+.home-custom{
+    /* color:#7669dc !important; */
+    font-size: 20px;
+}
+
+.footer-logo{
+    min-height:1px;
+    vertical-align:center;
+}
+.footer{
+    text-align: center;
+    padding: 0;
+    height: 70%
+}
+.footer-text{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #1b1260;
+    margin-top:0;
+}
+.footer-container-header{
+    font-family: Poppins !important;
+    font-size: 20px !important;
+    line-height: 1.88;
+    color: #1b1260;
+}   
+
+.abc{
+    text-align: left;
+}
+.solution-div{
+    max-width: 230px !important;
+}
+
+.footer-container-padding{
+    padding-left: 180px !important;
+}
+
+.icon{
+    position: relative;
+    top: 5px;
+    
+}
+
+.span-icon{
+    display: inline-block;
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    background-color: black !important;
+    padding: 0px;
+}
+.twitter{
+    background: #1da1f2;
+
+}
+.linkedin{
+background: #0a66c2;
+}
+.github{
+background: #6834ba;
+} 
+
+.copy-right{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #1b1260;
+    text-align: center !important;
+    padding-right: 110px;  /*To move copyright line left side*/
+}
+
+
+/* CONTACT FORM */
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1025px) {
+    .form-div {
+        width: 100%;
+        text-align: left;
+        padding: 0;  
+      }
+      body{
+          font-size: 18px;
+      }
+      .button{
+          width: 100%;
+          margin-bottom: 10px;
+          padding: 5px;
+          border-radius: 5px;
+      }
+      .home-container{
+          padding: 10px;
+      }
+  }
+  

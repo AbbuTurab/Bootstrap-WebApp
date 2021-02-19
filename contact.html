@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        #subject{
+          height: 160px !important;
+
+        }
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .form-container {
+          border-radius: 10px;
+          box-shadow: 0px 10px 15px black;
+          max-width: 65% !important;
+          max-height: 65% !important;  
+          background-color: #f2f2f2;
+          padding: 20px;
+          margin-bottom: 30px;
+        }
+        </style>
+    <title>Contatc Us | Fission Labs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white pt-0 pb-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://www.fissionlabs.com/wp-content/themes/fissionlabs_v1/assets/images/Logo.png"
+                    width="220" height="50" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse right-content" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 ml-auto mb-lg-0">
+                    <li class="nav-item hover">
+                        <a class="nav-link active hover" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover active" aria-current="page" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover active" aria-current="page" href="/About-Us.html">ABOUT US</a>
+                    </li>
+                </ul>
+                <form class="d-flex  search-bar">
+                    <input class="form-control  me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success " type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!-- CONTACT FORM -->
+
+<h3>Contact Today!</h3>
+
+<div class="container form-container">
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="lname">Email</label>
+    <input type="text" id="Email" name="email" placeholder="Your Email.." required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">India </option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit"  value="Submit">
+  </form>
+</div>
+
+
+</body>
+
+<div class="container-fluid">
+    <div class="footer">
+        <img class="footer-logo"
+             src="https://www.fissionlabs.com/wp-content/themes/fissionlabs_v1/assets/images/Logo_Footer.png">
+        <p class="footer-text">Innovation Accelerator</p>
+    </div>
+</div>
+
+<div class="container-fluid footer-container-padding">
+    <div class="container">
+        <div class="row abc">
+            <div class="col-sm solution-div">
+                <p class="footer-container-header">COMPANY</p>
+                <p> About Us</p>
+                <p>Careers</p>
+                <p>Privacy Policy</p>
+            </div>
+            
+            <div class="col-sm pl-0 ">
+                <p class="footer-container-header">SOLUTIONS</p>
+                <p> Team Augmentation</p>
+                <p>End to End Product Development</p>
+                <p>PoC and MVP Development</p>
+            </div>
+            
+            <div class="col-sm">
+                <p class="footer-container-header">SERVICES</p>
+                <p> Web Application Developmen</p>
+                <p>Mobile App Development</p>
+                <p>AI And ML Based Solutioning</p>
+                <p>Software Testing</p>
+                <p>Data Analytics</p>
+                <p>Cloud Management</p>
+            </div>
+            <div class="col-sm">
+                <p class="footer-container-header">CONTACT US</p>
+                <p> info@fissionlabs.com</p>
+                <p>STAY IN TOUCH</p>
+                    <div>
+                        <a href="https://twitter.com/syedabbuturab4" target="_blank" class="span-icon twitter"><i class="fa fa-twitter fa-2x icon"></i></a>
+                        <a href="https://github.com/AbbuTurab" target="_blank" class="span-icon github"><i class="fa fa-github fa-2x icon"></i></a>
+                        <a href="https://www.linkedin.com/in/abbuturabsyed/" target="_blank" class="span-icon linkedin"><i class="fa fa-linkedin fa-2x icon"></i></a>
+                    </div>
+                  <div class="footer-image">
+                    
+                </div>
+            </div>
+    </div>
+    <div class="copy-right">
+    <p>&#169; 2021 Fission Labs - All Rights Reserved</p>
+</div>
+</div>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+</html>
